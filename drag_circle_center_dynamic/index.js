@@ -47,7 +47,6 @@ function drag(event) {
         position = getCanvasCoordinates(event);
         drawCircle(position);
         //drawLine(position);
-        //drawPolygon(position, 6, Math.PI / 4);
     }
 }
 
@@ -57,7 +56,6 @@ function dragStop(event) {
     var position = getCanvasCoordinates(event);
     drawCircle(position);
     //drawLine(position);
-    drawPolygon(position, 6, Math.PI / 4);
 }
 
 function init() {
